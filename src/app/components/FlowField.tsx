@@ -55,7 +55,7 @@ const NOISE_SCALE = 200;
 const NOISE_SPEED = 0.003;
 const PARTICLE_RADIUS = 1.2;
 const TRAIL_LENGTH = 4;
-const FADE_ALPHA = 0.06;
+const FADE_ALPHA = 0.1;
 const MOUSE_RADIUS = 250;
 const MOUSE_STRENGTH = 0.003;
 
@@ -74,7 +74,6 @@ export default function FlowField() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Particle[]>([]);
   const mouseRef = useRef({ x: -1000, y: -1000 });
-  const frameRef = useRef(0);
   const timeRef = useRef(0);
 
   const handlePointer = useCallback((e: MouseEvent | TouchEvent) => {
