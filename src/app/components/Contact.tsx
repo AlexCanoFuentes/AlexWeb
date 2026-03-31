@@ -5,7 +5,8 @@ import ScrollReveal from "./ScrollReveal";
 const LINKS = [
   { label: "LinkedIn", href: "https://linkedin.com/in/alexkxdev" },
   { label: "WhatsApp", href: "https://wa.me/34611956373" },
-  { label: "Email", href: "mailto:hello@alexcano.dev" },
+  // TODO: cambiar a mailto:hello@alexcano.dev cuando dominio esté activo
+  { label: "Email", href: "mailto:alexcanofuentes@gmail.com" },
 ];
 
 export default function Contact() {
