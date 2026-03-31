@@ -25,6 +25,21 @@ export default function Contact() {
         </ScrollReveal>
 
         <ScrollReveal>
+          <a
+            href="https://www.cal.eu/alexcano"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-accent text-bg-primary font-display font-medium text-base px-10 py-4 tracking-wide transition-all duration-300 hover:bg-text-primary"
+          >
+            Agenda una Discovery Call
+          </a>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <p className="font-mono text-[11px] tracking-[3px] uppercase text-text-muted my-8">
+            o contacta directamente
+          </p>
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {LINKS.map((link) => (
               <a
