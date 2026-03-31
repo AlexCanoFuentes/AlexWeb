@@ -6,7 +6,7 @@ const LINKS = [
   { label: "LinkedIn", href: "https://linkedin.com/in/alexkxdev" },
   { label: "WhatsApp", href: "https://wa.me/34611956373" },
   // TODO: cambiar a mailto:hello@alexcano.dev cuando dominio esté activo
-  { label: "Email", href: "mailto:alexcanofuentes@gmail.com" },
+  { label: "Email", href: "mailto:alexcanox1@gmail.com" },
 ];
 
 export default function Contact() {
